@@ -348,10 +348,8 @@ uses
   LazUTF8;
 
 const
-  //QUANTIDADE_GRUPOS = 6;
-  QUANTIDADE_GRUPOS = 7;
-  //QUANTIDADE_ITENS_MENU = 33;
-  QUANTIDADE_ITENS_MENU = 35;
+  QUANTIDADE_GRUPOS = 6;
+  QUANTIDADE_ITENS_MENU = 33;
 
   QUANTIDADE_COLUNAS = 4;
 
@@ -473,7 +471,6 @@ const
   GRUPO_CONTROLE_VERSAO = 4;
   GRUPO_BANCOS_DADOS = 5;
   GRUPO_FRAMEWORKS = 6;
-  GRUPO_FRUTAS = 7;
 
   GRUPOS_MENU: array[1..QUANTIDADE_GRUPOS] of TGrupoMenu = (
     (Titulo: 'Linguagens'),
@@ -481,8 +478,7 @@ const
     (Titulo: 'IDEs e Editores'),
     (Titulo: 'Controle de Versão'),
     (Titulo: 'Bancos de Dados'),
-    (Titulo: 'Frameworks'),
-    (Titulo: 'Frutas')
+    (Titulo: 'Frameworks')
   );
 
   ITENS_MENU: array[1..QUANTIDADE_ITENS_MENU] of TItemConfiguracao = (
@@ -523,11 +519,7 @@ const
     (Titulo: 'Qt'; Grupo: GRUPO_FRAMEWORKS),
     (Titulo: 'GTK'; Grupo: GRUPO_FRAMEWORKS),
     (Titulo: 'React'; Grupo: GRUPO_FRAMEWORKS),
-    (Titulo: 'FastAPI'; Grupo: GRUPO_FRAMEWORKS),
-
-    //(Titulo: 'Maçã'; Grupo: GRUPO_FRUTAS),
-    (Titulo: 'Maçã'; Grupo: GRUPO_FRUTAS),
-    (Titulo: 'Pêssego'; Grupo: GRUPO_FRUTAS)
+    (Titulo: 'FastAPI'; Grupo: GRUPO_FRAMEWORKS)
 
   );
 
