@@ -1,0 +1,22 @@
+# Arquivos gerados pela compilação
+/lib/
+/Lazarus_mega_menu
+*.o
+*.ppu
+*.or
+*.a
+*.so
+*.compiled
+
+# Arquivos temporários e de backup do editor
+*~
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Arquivos de sessão locais do Lazarus
+*.lps
+
+# Configurações locais do Git
+.DS_Store
