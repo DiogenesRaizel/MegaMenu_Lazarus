@@ -1,11 +1,13 @@
 # Mega Menu
 
-Mega menu para aplicações desktop, desenvolvido em Lazarus no Ubuntu 22.04 LTS, utilizando GTK3.
+A mega menu for desktop applications, developed with Lazarus 4.8 on Ubuntu 22.04 LTS using GTK3.
 
-## Tema escuro
+Compiled with Lazarus 5.99 (development version).
 
-![Mega Menu - Tema escuro](image/mega-menu-dark.png)
+## Dark Theme
 
-## Tema claro
+![Mega Menu - Dark Theme](image/mega-menu-dark.png)
 
-![Mega Menu - Tema claro](image/mega-menu-light.png)
+## Light Theme
+
+![Mega Menu - Light Theme](image/mega-menu-light.png)
